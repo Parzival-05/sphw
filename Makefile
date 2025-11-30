@@ -11,6 +11,3 @@ pong: pong.c
 
 clean:
 	rm -f ping pong data.txt ping.flag pong.flag data.tmp
-
-run: all
-	rm -f data.txt ping.flag pong.flag data.tmp && ./pong & ./ping & wait
